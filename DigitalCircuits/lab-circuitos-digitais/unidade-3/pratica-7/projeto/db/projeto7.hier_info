@@ -1,0 +1,42 @@
+|alu1b
+a => m1.IN0
+b => m2.IN0
+a_inv => m1.IN1
+b_inv => m2.IN1
+c_in => c_in.IN1
+s1 => s1.IN1
+s0 => s0.IN1
+x << multiplex:mx.x
+c_out << fulladder:adder.co
+
+
+|alu1b|fulladder:adder
+a => s.IN0
+a => co.IN0
+a => co.IN0
+b => s.IN1
+b => co.IN1
+b => co.IN0
+ci => s.IN1
+ci => co.IN1
+ci => co.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+co <= co.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu1b|multiplex:mx
+s1 => x.IN0
+s1 => x.IN0
+s1 => x.IN0
+s1 => x.IN0
+s0 => x.IN1
+s0 => x.IN1
+s0 => x.IN1
+s0 => x.IN1
+i0 => x.IN1
+i1 => x.IN1
+i2 => x.IN1
+i3 => x.IN1
+x <= x.DB_MAX_OUTPUT_PORT_TYPE
+
+

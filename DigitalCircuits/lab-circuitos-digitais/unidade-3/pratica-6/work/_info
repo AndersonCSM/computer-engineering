@@ -1,0 +1,58 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/18.1
+vpratica_6
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1741958346
+!i10b 1
+!s100 @H1nXO5oNK4P4MzO1O5Um2
+ISm0K6O4QJZS9D[14GCc^=0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 pratica_6_sv_unit
+S1
+Z3 dC:/Users/Windows10/Desktop/LabCircuitosDigitais/unidade-3/pratica-6
+w1741958338
+8C:/Users/Windows10/Desktop/LabCircuitosDigitais/unidade-3/pratica-6/pratica_6.sv
+FC:/Users/Windows10/Desktop/LabCircuitosDigitais/unidade-3/pratica-6/pratica_6.sv
+L0 4
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1741958346.000000
+!s107 C:/Users/Windows10/Desktop/LabCircuitosDigitais/unidade-3/pratica-6/pratica_6.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Windows10/Desktop/LabCircuitosDigitais/unidade-3/pratica-6/pratica_6.sv|
+!i113 1
+Z6 o-work work -sv
+Z7 tCvgOpt 0
+vtb_pratica_6
+R0
+R1
+!i10b 1
+!s100 4EaI2_@bUc8ihI9DEd:Y70
+I>ACY]zTeME@UTMC@kf:BG2
+R2
+!s105 tb_pratica_6_sv_unit
+S1
+R3
+w1741958340
+8C:/Users/Windows10/Desktop/LabCircuitosDigitais/unidade-3/pratica-6/tb_pratica_6.sv
+FC:/Users/Windows10/Desktop/LabCircuitosDigitais/unidade-3/pratica-6/tb_pratica_6.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Windows10/Desktop/LabCircuitosDigitais/unidade-3/pratica-6/tb_pratica_6.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Windows10/Desktop/LabCircuitosDigitais/unidade-3/pratica-6/tb_pratica_6.sv|
+!i113 1
+R6
+R7

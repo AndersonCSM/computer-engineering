@@ -1,0 +1,58 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/18.1
+vtb_test
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1741950537
+!i10b 1
+!s100 >?f8?J;lO@3KQeI4]4FB<1
+Ig<:1ieUTU4E9[dkULOTdB1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+!s105 tb_teste_sv_unit
+S1
+Z2 dC:/Users/Windows10/Desktop/LabCircuitosDigitais/unidade-3/teste-1
+w1741950306
+8C:/Users/Windows10/Desktop/LabCircuitosDigitais/unidade-3/teste-1/tb_teste.sv
+FC:/Users/Windows10/Desktop/LabCircuitosDigitais/unidade-3/teste-1/tb_teste.sv
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1741950537.000000
+!s107 C:/Users/Windows10/Desktop/LabCircuitosDigitais/unidade-3/teste-1/tb_teste.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Windows10/Desktop/LabCircuitosDigitais/unidade-3/teste-1/tb_teste.sv|
+!i113 1
+Z4 o-work work -sv
+Z5 tCvgOpt 0
+vteste
+R0
+!s110 1741950536
+!i10b 1
+!s100 [JSXOJ1jH@jQ`iYcg`o3n3
+I@8o@3GSDg;Yakb5PXj_JS0
+R1
+!s105 teste_sv_unit
+S1
+R2
+w1741950305
+8C:/Users/Windows10/Desktop/LabCircuitosDigitais/unidade-3/teste-1/teste.sv
+FC:/Users/Windows10/Desktop/LabCircuitosDigitais/unidade-3/teste-1/teste.sv
+L0 4
+R3
+r1
+!s85 0
+31
+!s108 1741950533.000000
+!s107 C:/Users/Windows10/Desktop/LabCircuitosDigitais/unidade-3/teste-1/teste.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Windows10/Desktop/LabCircuitosDigitais/unidade-3/teste-1/teste.sv|
+!i113 1
+R4
+R5

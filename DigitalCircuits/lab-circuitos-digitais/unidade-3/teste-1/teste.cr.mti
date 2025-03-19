@@ -1,0 +1,15 @@
+C:/Users/Windows10/Desktop/LabCircuitosDigitais/unidade-3/teste-1/teste.sv {1 {vlog -work work -sv -stats=none C:/Users/Windows10/Desktop/LabCircuitosDigitais/unidade-3/teste-1/teste.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module teste
+
+Top level modules:
+	teste
+
+} {} {}} C:/Users/Windows10/Desktop/LabCircuitosDigitais/unidade-3/teste-1/tb_teste.sv {1 {vlog -work work -sv -stats=none C:/Users/Windows10/Desktop/LabCircuitosDigitais/unidade-3/teste-1/tb_teste.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_test
+
+Top level modules:
+	tb_test
+
+} {} {}}

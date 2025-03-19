@@ -1,0 +1,106 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Windows10/Desktop/LabCircuitosDigitais/unidade-3/teste-1
+valu1b
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1742326150
+!i10b 1
+!s100 8NUVolVXi5KZ2N<GAK@Ga0
+IHmPCc6h3cDd5BZ83jeh_A3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 alu1b_sv_unit
+S1
+Z3 dC:/Users/Windows10/Desktop/LabCircuitosDigitais/unidade-3/pratica-7/projeto
+w1742324979
+8C:/Users/Windows10/Desktop/LabCircuitosDigitais/unidade-3/pratica-7/projeto/alu1b.sv
+FC:/Users/Windows10/Desktop/LabCircuitosDigitais/unidade-3/pratica-7/projeto/alu1b.sv
+L0 4
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1742326150.000000
+!s107 C:/Users/Windows10/Desktop/LabCircuitosDigitais/unidade-3/pratica-7/projeto/alu1b.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Windows10/Desktop/LabCircuitosDigitais/unidade-3/pratica-7/projeto/alu1b.sv|
+!i113 1
+Z6 o-work work -sv
+Z7 tCvgOpt 0
+vfulladder
+R0
+R1
+!i10b 1
+!s100 0NX]J9JJ3RjA8ZZ>GT^2_1
+I>:7L64<fJ[4GQRAAdlPQ:1
+R2
+!s105 fulladder_sv_unit
+S1
+R3
+w1742322097
+8C:/Users/Windows10/Desktop/LabCircuitosDigitais/unidade-3/pratica-7/projeto/fulladder.sv
+FC:/Users/Windows10/Desktop/LabCircuitosDigitais/unidade-3/pratica-7/projeto/fulladder.sv
+L0 4
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Windows10/Desktop/LabCircuitosDigitais/unidade-3/pratica-7/projeto/fulladder.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Windows10/Desktop/LabCircuitosDigitais/unidade-3/pratica-7/projeto/fulladder.sv|
+!i113 1
+R6
+R7
+vmultiplex
+R0
+R1
+!i10b 1
+!s100 Q5DI:60X7:df4_WQenVeE2
+Ib1gLZC]ZG8X?_F;08TC020
+R2
+!s105 multiplex_sv_unit
+S1
+R3
+w1742324978
+8C:/Users/Windows10/Desktop/LabCircuitosDigitais/unidade-3/pratica-7/projeto/multiplex.sv
+FC:/Users/Windows10/Desktop/LabCircuitosDigitais/unidade-3/pratica-7/projeto/multiplex.sv
+L0 4
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Windows10/Desktop/LabCircuitosDigitais/unidade-3/pratica-7/projeto/multiplex.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Windows10/Desktop/LabCircuitosDigitais/unidade-3/pratica-7/projeto/multiplex.sv|
+!i113 1
+R6
+R7
+vtb_alu1b
+R0
+R1
+!i10b 1
+!s100 G7FZj2d0VjiNT<4;nKcIP0
+I>SIncA3i?zn08N>FPeL?P0
+R2
+!s105 tb_alu1b_sv_unit
+S1
+R3
+w1742326120
+8C:/Users/Windows10/Desktop/LabCircuitosDigitais/unidade-3/pratica-7/projeto/tb_alu1b.sv
+FC:/Users/Windows10/Desktop/LabCircuitosDigitais/unidade-3/pratica-7/projeto/tb_alu1b.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Windows10/Desktop/LabCircuitosDigitais/unidade-3/pratica-7/projeto/tb_alu1b.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Windows10/Desktop/LabCircuitosDigitais/unidade-3/pratica-7/projeto/tb_alu1b.sv|
+!i113 1
+R6
+R7

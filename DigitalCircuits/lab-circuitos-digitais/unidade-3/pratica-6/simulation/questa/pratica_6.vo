@@ -1,0 +1,258 @@
+// Copyright (C) 2023  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and any partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details, at
+// https://fpgasoftware.intel.com/eula.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus Prime"
+// VERSION "Version 23.1std.0 Build 991 11/28/2023 SC Lite Edition"
+
+// DATE "03/14/2025 11:35:44"
+
+// 
+// Device: Altera EP4CE115F29C7 Package FBGA780
+// 
+
+// 
+// This Verilog file should be used for Questa Intel FPGA (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module pratica_6 (
+	M1,
+	M2,
+	M3,
+	M4,
+	S1,
+	S2,
+	S3,
+	S4);
+input 	M1;
+input 	M2;
+input 	M3;
+input 	M4;
+output 	S1;
+output 	S2;
+output 	S3;
+output 	S4;
+
+// Design Ports Information
+// S1	=>  Location: PIN_G19,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// S2	=>  Location: PIN_F19,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// S3	=>  Location: PIN_E19,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// S4	=>  Location: PIN_F21,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// M1	=>  Location: PIN_AB28,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// M2	=>  Location: PIN_AC28,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// M3	=>  Location: PIN_AC27,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// M4	=>  Location: PIN_AD27,	 I/O Standard: 2.5 V,	 Current Strength: Default
+
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+wire \S1~output_o ;
+wire \S2~output_o ;
+wire \S3~output_o ;
+wire \S4~output_o ;
+wire \M1~input_o ;
+wire \M2~input_o ;
+wire \M3~input_o ;
+wire \S3~0_combout ;
+wire \M4~input_o ;
+wire \S4~0_combout ;
+
+
+hard_block auto_generated_inst(
+	.devpor(devpor),
+	.devclrn(devclrn),
+	.devoe(devoe));
+
+// Location: IOOBUF_X69_Y73_N16
+cycloneive_io_obuf \S1~output (
+	.i(\M1~input_o ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\S1~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \S1~output .bus_hold = "false";
+defparam \S1~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X94_Y73_N2
+cycloneive_io_obuf \S2~output (
+	.i(\M2~input_o ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\S2~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \S2~output .bus_hold = "false";
+defparam \S2~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X94_Y73_N9
+cycloneive_io_obuf \S3~output (
+	.i(\S3~0_combout ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\S3~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \S3~output .bus_hold = "false";
+defparam \S3~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X107_Y73_N16
+cycloneive_io_obuf \S4~output (
+	.i(\S4~0_combout ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\S4~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \S4~output .bus_hold = "false";
+defparam \S4~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOIBUF_X115_Y17_N1
+cycloneive_io_ibuf \M1~input (
+	.i(M1),
+	.ibar(gnd),
+	.o(\M1~input_o ));
+// synopsys translate_off
+defparam \M1~input .bus_hold = "false";
+defparam \M1~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X115_Y14_N1
+cycloneive_io_ibuf \M2~input (
+	.i(M2),
+	.ibar(gnd),
+	.o(\M2~input_o ));
+// synopsys translate_off
+defparam \M2~input .bus_hold = "false";
+defparam \M2~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X115_Y15_N8
+cycloneive_io_ibuf \M3~input (
+	.i(M3),
+	.ibar(gnd),
+	.o(\M3~input_o ));
+// synopsys translate_off
+defparam \M3~input .bus_hold = "false";
+defparam \M3~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: LCCOMB_X107_Y69_N0
+cycloneive_lcell_comb \S3~0 (
+// Equation(s):
+// \S3~0_combout  = (\M3~input_o  & ((!\M1~input_o ) # (!\M2~input_o )))
+
+	.dataa(gnd),
+	.datab(\M2~input_o ),
+	.datac(\M3~input_o ),
+	.datad(\M1~input_o ),
+	.cin(gnd),
+	.combout(\S3~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \S3~0 .lut_mask = 16'h30F0;
+defparam \S3~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: IOIBUF_X115_Y13_N8
+cycloneive_io_ibuf \M4~input (
+	.i(M4),
+	.ibar(gnd),
+	.o(\M4~input_o ));
+// synopsys translate_off
+defparam \M4~input .bus_hold = "false";
+defparam \M4~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: LCCOMB_X107_Y69_N2
+cycloneive_lcell_comb \S4~0 (
+// Equation(s):
+// \S4~0_combout  = (\M4~input_o  & ((\M2~input_o  & (!\M3~input_o  & !\M1~input_o )) # (!\M2~input_o  & ((!\M1~input_o ) # (!\M3~input_o )))))
+
+	.dataa(\M4~input_o ),
+	.datab(\M2~input_o ),
+	.datac(\M3~input_o ),
+	.datad(\M1~input_o ),
+	.cin(gnd),
+	.combout(\S4~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \S4~0 .lut_mask = 16'h022A;
+defparam \S4~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+assign S1 = \S1~output_o ;
+
+assign S2 = \S2~output_o ;
+
+assign S3 = \S3~output_o ;
+
+assign S4 = \S4~output_o ;
+
+endmodule
+
+module hard_block (
+
+	devpor,
+	devclrn,
+	devoe);
+
+// Design Ports Information
+// ~ALTERA_ASDO_DATA1~	=>  Location: PIN_F4,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// ~ALTERA_FLASH_nCE_nCSO~	=>  Location: PIN_E2,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// ~ALTERA_DCLK~	=>  Location: PIN_P3,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// ~ALTERA_DATA0~	=>  Location: PIN_N7,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// ~ALTERA_nCEO~	=>  Location: PIN_P28,	 I/O Standard: 2.5 V,	 Current Strength: 8mA
+
+input 	devpor;
+input 	devclrn;
+input 	devoe;
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+wire \~ALTERA_ASDO_DATA1~~padout ;
+wire \~ALTERA_FLASH_nCE_nCSO~~padout ;
+wire \~ALTERA_DATA0~~padout ;
+wire \~ALTERA_ASDO_DATA1~~ibuf_o ;
+wire \~ALTERA_FLASH_nCE_nCSO~~ibuf_o ;
+wire \~ALTERA_DATA0~~ibuf_o ;
+
+
+endmodule

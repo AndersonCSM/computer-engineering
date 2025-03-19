@@ -1,0 +1,15 @@
+C:/Users/Windows10/Desktop/LabCircuitosDigitais/unidade-3/exemplo-3/skt3.sv {1 {vlog -work work -sv -stats=none C:/Users/Windows10/Desktop/LabCircuitosDigitais/unidade-3/exemplo-3/skt3.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module skt3
+
+Top level modules:
+	skt3
+
+} {} {}} C:/Users/Windows10/Desktop/LabCircuitosDigitais/unidade-3/exemplo-3/fulladder.sv {1 {vlog -work work -sv -stats=none C:/Users/Windows10/Desktop/LabCircuitosDigitais/unidade-3/exemplo-3/fulladder.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fulladder
+
+Top level modules:
+	fulladder
+
+} {} {}}

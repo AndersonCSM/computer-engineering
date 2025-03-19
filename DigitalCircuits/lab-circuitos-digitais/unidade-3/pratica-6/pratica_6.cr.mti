@@ -1,0 +1,15 @@
+C:/Users/Windows10/Desktop/LabCircuitosDigitais/unidade-3/pratica-6/pratica_6.sv {1 {vlog -work work -sv -stats=none C:/Users/Windows10/Desktop/LabCircuitosDigitais/unidade-3/pratica-6/pratica_6.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module pratica_6
+
+Top level modules:
+	pratica_6
+
+} {} {}} C:/Users/Windows10/Desktop/LabCircuitosDigitais/unidade-3/pratica-6/tb_pratica_6.sv {1 {vlog -work work -sv -stats=none C:/Users/Windows10/Desktop/LabCircuitosDigitais/unidade-3/pratica-6/tb_pratica_6.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_pratica_6
+
+Top level modules:
+	tb_pratica_6
+
+} {} {}}
