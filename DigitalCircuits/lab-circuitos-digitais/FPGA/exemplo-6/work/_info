@@ -1,0 +1,106 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-8
+vexe5
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1742493575
+!i10b 1
+!s100 ]gTG?>5gYI7YiOddZXhFK2
+I8>z[4ERT63=:ald2<9=Nk1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 !s105 exe6_sv_unit
+S1
+Z3 dC:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/exemplo-6
+w1742493318
+Z4 8C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/exemplo-6/exe6.sv
+Z5 FC:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/exemplo-6/exe6.sv
+L0 1
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1742493575.000000
+Z7 !s107 C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/exemplo-6/exe6.sv|
+Z8 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/exemplo-6/exe6.sv|
+!i113 1
+Z9 o-work work -sv
+Z10 tCvgOpt 0
+vexe6
+R0
+Z11 !s110 1742493807
+!i10b 1
+!s100 O_@V1jn8^_kP84Enc1Ka^2
+I]m2b^jcF4eJ<^WnlgM4X]1
+R1
+R2
+S1
+R3
+w1742493628
+R4
+R5
+L0 1
+R6
+r1
+!s85 0
+31
+Z12 !s108 1742493807.000000
+R7
+R8
+!i113 1
+R9
+R10
+vtb_ckt5
+R0
+!s110 1742493516
+!i10b 1
+!s100 zH58>6QkS793^do]0BVU@2
+Ij?Gm<OVi<RlfI;_]SUT0`1
+R1
+Z13 !s105 tb_exe6_sv_unit
+S1
+R3
+w1742493508
+Z14 8C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/exemplo-6/tb_exe6.sv
+Z15 FC:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/exemplo-6/tb_exe6.sv
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1742493515.000000
+!s107 C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/exemplo-6/tb_exe6.sv|
+Z16 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/exemplo-6/tb_exe6.sv|
+!i113 1
+R9
+R10
+vtb_exe6
+R0
+R11
+!i10b 1
+!s100 ^5Xlgcgm6f5hYOdTcC8L52
+I`QR8k0XSlTbhglYOQV3i_1
+R1
+R13
+S1
+R3
+w1742493642
+R14
+R15
+L0 1
+R6
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/exemplo-6/tb_exe6.sv|
+R16
+!i113 1
+R9
+R10

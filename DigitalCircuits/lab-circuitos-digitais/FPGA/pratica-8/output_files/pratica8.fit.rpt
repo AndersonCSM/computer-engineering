@@ -1,5 +1,5 @@
 Fitter report for pratica8
-Wed Mar 19 15:40:01 2025
+Wed Mar 19 16:25:26 2025
 Quartus Prime Version 23.1std.0 Build 991 11/28/2023 SC Lite Edition
 
 
@@ -63,7 +63,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------------+
 ; Fitter Summary                                                                      ;
 +------------------------------------+------------------------------------------------+
-; Fitter Status                      ; Successful - Wed Mar 19 15:40:01 2025          ;
+; Fitter Status                      ; Successful - Wed Mar 19 16:25:25 2025          ;
 ; Quartus Prime Version              ; 23.1std.0 Build 991 11/28/2023 SC Lite Edition ;
 ; Revision Name                      ; pratica8                                       ;
 ; Top-level Entity Name              ; pratica8                                       ;
@@ -1598,13 +1598,13 @@ Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:00
+Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
 Info (144001): Generated suppressed messages file C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-8/output_files/pratica8.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 6309 megabytes
-    Info: Processing ended: Wed Mar 19 15:40:01 2025
-    Info: Elapsed time: 00:00:08
-    Info: Total CPU time (on all processors): 00:00:15
+    Info: Peak virtual memory: 6313 megabytes
+    Info: Processing ended: Wed Mar 19 16:25:26 2025
+    Info: Elapsed time: 00:00:11
+    Info: Total CPU time (on all processors): 00:00:16
 
 
 +----------------------------+

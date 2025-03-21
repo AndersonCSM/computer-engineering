@@ -1,0 +1,15 @@
+C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/exemplo-6/exe6.sv {1 {vlog -work work -sv -stats=none C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/exemplo-6/exe6.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module exe6
+
+Top level modules:
+	exe6
+
+} {} {}} C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/exemplo-6/tb_exe6.sv {1 {vlog -work work -sv -stats=none C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/exemplo-6/tb_exe6.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_exe6
+
+Top level modules:
+	tb_exe6
+
+} {} {}}

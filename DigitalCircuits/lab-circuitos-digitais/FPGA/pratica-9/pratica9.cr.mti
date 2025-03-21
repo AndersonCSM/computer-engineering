@@ -1,0 +1,64 @@
+C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/pratica9.sv {1 {vlog -work work -sv -stats=none C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/pratica9.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module pratica9
+
+Top level modules:
+	pratica9
+
+} {} {}} C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/divclk.sv {1 {vlog -work work -sv -stats=none C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/divclk.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Clock_divider
+
+Top level modules:
+	Clock_divider
+
+} {} {}} C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/ffjk.sv {1 {vlog -work work -sv -stats=none C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/ffjk.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ffjk
+
+Top level modules:
+	ffjk
+
+} {} {}} C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/mod10.sv {1 {vlog -work work -sv -stats=none C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/mod10.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mod10
+
+Top level modules:
+	mod10
+
+} {} {}} C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/contador_mod10.sv {1 {vlog -work work -sv -stats=none C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/contador_mod10.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module contador_mod10
+
+Top level modules:
+	contador_mod10
+
+} {} {}} C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/tb_divclk.sv {1 {vlog -work work -sv -stats=none C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/tb_divclk.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_clock_divider
+
+Top level modules:
+	tb_clock_divider
+
+} {} {}} C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/mod6.sv {1 {vlog -work work -sv -stats=none C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/mod6.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mod6
+
+Top level modules:
+	mod6
+
+} {} {}} C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/contador_mod6.sv {1 {vlog -work work -sv -stats=none C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/contador_mod6.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module contador_mod6
+
+Top level modules:
+	contador_mod6
+
+} {} {}} C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/decodificador.sv {1 {vlog -work work -sv -stats=none C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/decodificador.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module decodificador
+
+Top level modules:
+	decodificador
+
+} {} {}}

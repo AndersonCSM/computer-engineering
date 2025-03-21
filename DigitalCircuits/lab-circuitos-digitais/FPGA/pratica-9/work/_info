@@ -1,0 +1,227 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9
+vClock_divider
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1742512677
+!i10b 1
+!s100 Xh`4:lChSObo:lzg63UV=2
+ID<f7`R[dUeaKHNlaE1dBC0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 divclk_sv_unit
+S1
+R0
+w1742495636
+8C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/divclk.sv
+FC:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/divclk.sv
+L0 4
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1742512677.000000
+!s107 C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/divclk.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/divclk.sv|
+!i113 1
+Z6 o-work work -sv
+Z7 tCvgOpt 0
+n@clock_divider
+vcontador_mod10
+R1
+Z8 !s110 1742512678
+!i10b 1
+!s100 99gLag7407?Ef[IUh:fjC1
+IZX[Yd[hQgj;=>:W9og62H0
+R3
+!s105 contador_mod10_sv_unit
+S1
+R0
+w1742501646
+8C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/contador_mod10.sv
+FC:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/contador_mod10.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1742512678.000000
+!s107 C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/contador_mod10.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/contador_mod10.sv|
+!i113 1
+R6
+R7
+vcontador_mod6
+R1
+R8
+!i10b 1
+!s100 OO?FI]L1n41d<?9dLZ4b@2
+IhNeAF:<bC[GO`M14R;_VY0
+R3
+!s105 contador_mod6_sv_unit
+S1
+R0
+w1742501512
+8C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/contador_mod6.sv
+FC:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/contador_mod6.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/contador_mod6.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/contador_mod6.sv|
+!i113 1
+R6
+R7
+vdecodificador
+R1
+R2
+!i10b 1
+!s100 KKB>0e6goFhKATQEiEHOm1
+I0jV;C1Mc1@[?j3=lTMM;[3
+R3
+!s105 decodificador_sv_unit
+S1
+R0
+w1742498214
+8C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/decodificador.sv
+FC:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/decodificador.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/decodificador.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/decodificador.sv|
+!i113 1
+R6
+R7
+vffjk
+R1
+R2
+!i10b 1
+!s100 gK]o:h;8AIOmG:3fg>C5P2
+IP:mdJd5HkmI>4[DjfV?cN2
+R3
+!s105 ffjk_sv_unit
+S1
+R0
+w1742494460
+8C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/ffjk.sv
+FC:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/ffjk.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/ffjk.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/ffjk.sv|
+!i113 1
+R6
+R7
+vmod10
+R1
+R2
+!i10b 1
+!s100 e8b8NJCJeINje?=VTh?kS1
+IL0WP[g;W;@E3d7zb:Ime<1
+R3
+!s105 mod10_sv_unit
+S1
+R0
+w1742498724
+8C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/mod10.sv
+FC:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/mod10.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/mod10.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/mod10.sv|
+!i113 1
+R6
+R7
+vmod6
+R1
+R2
+!i10b 1
+!s100 GbX<NbnH6m<9f7Kc0<T<h3
+IDDjLGI_UYBA^SE8_E`ITL1
+R3
+!s105 mod6_sv_unit
+S1
+R0
+w1742499297
+8C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/mod6.sv
+FC:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/mod6.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/mod6.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/mod6.sv|
+!i113 1
+R6
+R7
+vpratica9
+R1
+R2
+!i10b 1
+!s100 7oeN^efFS2E41[<OX5a`@3
+IV?nPoQnibA]U:ILQRd4ff1
+R3
+!s105 pratica9_sv_unit
+S1
+R0
+w1742512623
+8C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/pratica9.sv
+FC:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/pratica9.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/pratica9.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/pratica9.sv|
+!i113 1
+R6
+R7
+vtb_clock_divider
+R1
+R2
+!i10b 1
+!s100 [_9L<2O9bg8=Q]MOK[j<21
+I=Ko3gY7bE0hSB>YnS5U^M0
+R3
+!s105 tb_divclk_sv_unit
+S1
+R0
+w1742496591
+8C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/tb_divclk.sv
+FC:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/tb_divclk.sv
+L0 5
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/tb_divclk.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Windows10/Desktop/github-projects/computer-engineering/DigitalCircuits/lab-circuitos-digitais/FPGA/pratica-9/tb_divclk.sv|
+!i113 1
+R6
+R7
