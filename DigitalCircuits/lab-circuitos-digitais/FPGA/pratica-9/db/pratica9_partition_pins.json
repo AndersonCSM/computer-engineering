@@ -4,59 +4,59 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "dis00",
+					"name" : "disp1[0]",
 					"strict" : false
 				},
 				{
-					"name" : "dis01",
+					"name" : "disp1[1]",
 					"strict" : false
 				},
 				{
-					"name" : "dis02",
+					"name" : "disp1[2]",
 					"strict" : false
 				},
 				{
-					"name" : "dis03",
+					"name" : "disp1[3]",
 					"strict" : false
 				},
 				{
-					"name" : "dis04",
+					"name" : "disp1[4]",
 					"strict" : false
 				},
 				{
-					"name" : "dis05",
+					"name" : "disp1[5]",
 					"strict" : false
 				},
 				{
-					"name" : "dis06",
+					"name" : "disp1[6]",
 					"strict" : false
 				},
 				{
-					"name" : "dis10",
+					"name" : "disp2[0]",
 					"strict" : false
 				},
 				{
-					"name" : "dis11",
+					"name" : "disp2[1]",
 					"strict" : false
 				},
 				{
-					"name" : "dis12",
+					"name" : "disp2[2]",
 					"strict" : false
 				},
 				{
-					"name" : "dis13",
+					"name" : "disp2[3]",
 					"strict" : false
 				},
 				{
-					"name" : "dis14",
+					"name" : "disp2[4]",
 					"strict" : false
 				},
 				{
-					"name" : "dis15",
+					"name" : "disp2[5]",
 					"strict" : false
 				},
 				{
-					"name" : "dis16",
+					"name" : "disp2[6]",
 					"strict" : false
 				},
 				{

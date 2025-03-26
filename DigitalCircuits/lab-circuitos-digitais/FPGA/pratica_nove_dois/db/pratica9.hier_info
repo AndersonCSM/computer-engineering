@@ -1,0 +1,213 @@
+|pratica9
+clk => clk.IN1
+reset => reset.IN5
+disp1[0] << decodificador:dec1.cod_out
+disp1[1] << decodificador:dec1.cod_out
+disp1[2] << decodificador:dec1.cod_out
+disp1[3] << decodificador:dec1.cod_out
+disp1[4] << decodificador:dec1.cod_out
+disp1[5] << decodificador:dec1.cod_out
+disp1[6] << decodificador:dec1.cod_out
+disp3[0] << decodificador:dec3.cod_out
+disp3[1] << decodificador:dec3.cod_out
+disp3[2] << decodificador:dec3.cod_out
+disp3[3] << decodificador:dec3.cod_out
+disp3[4] << decodificador:dec3.cod_out
+disp3[5] << decodificador:dec3.cod_out
+disp3[6] << decodificador:dec3.cod_out
+disp4[0] << decodificador:dec4.cod_out
+disp4[1] << decodificador:dec4.cod_out
+disp4[2] << decodificador:dec4.cod_out
+disp4[3] << decodificador:dec4.cod_out
+disp4[4] << decodificador:dec4.cod_out
+disp4[5] << decodificador:dec4.cod_out
+disp4[6] << decodificador:dec4.cod_out
+disp2[0] << decodificador:dec2.cod_out
+disp2[1] << decodificador:dec2.cod_out
+disp2[2] << decodificador:dec2.cod_out
+disp2[3] << decodificador:dec2.cod_out
+disp2[4] << decodificador:dec2.cod_out
+disp2[5] << decodificador:dec2.cod_out
+disp2[6] << decodificador:dec2.cod_out
+
+
+|pratica9|clock_divider:divisor
+clk => clk_out~reg0.CLK
+clk => counter[0].CLK
+clk => counter[1].CLK
+clk => counter[2].CLK
+clk => counter[3].CLK
+clk => counter[4].CLK
+clk => counter[5].CLK
+clk => counter[6].CLK
+clk => counter[7].CLK
+clk => counter[8].CLK
+clk => counter[9].CLK
+clk => counter[10].CLK
+clk => counter[11].CLK
+clk => counter[12].CLK
+clk => counter[13].CLK
+clk => counter[14].CLK
+clk => counter[15].CLK
+clk => counter[16].CLK
+clk => counter[17].CLK
+clk => counter[18].CLK
+clk => counter[19].CLK
+clk => counter[20].CLK
+clk => counter[21].CLK
+clk => counter[22].CLK
+clk => counter[23].CLK
+clk => counter[24].CLK
+clk => counter[25].CLK
+reset => counter[0].ACLR
+reset => counter[1].ACLR
+reset => counter[2].ACLR
+reset => counter[3].ACLR
+reset => counter[4].ACLR
+reset => counter[5].ACLR
+reset => counter[6].ACLR
+reset => counter[7].ACLR
+reset => counter[8].ACLR
+reset => counter[9].ACLR
+reset => counter[10].ACLR
+reset => counter[11].ACLR
+reset => counter[12].ACLR
+reset => counter[13].ACLR
+reset => counter[14].ACLR
+reset => counter[15].ACLR
+reset => counter[16].ACLR
+reset => counter[17].ACLR
+reset => counter[18].ACLR
+reset => counter[19].ACLR
+reset => counter[20].ACLR
+reset => counter[21].ACLR
+reset => counter[22].ACLR
+reset => counter[23].ACLR
+reset => counter[24].ACLR
+reset => counter[25].ACLR
+reset => clk_out~reg0.ENA
+clk_out <= clk_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|pratica9|contador_mod10:modd10
+clk => carry~reg0.CLK
+clk => cont[0]~reg0.CLK
+clk => cont[1]~reg0.CLK
+clk => cont[2]~reg0.CLK
+clk => cont[3]~reg0.CLK
+reset => cont[0]~reg0.ACLR
+reset => cont[1]~reg0.ACLR
+reset => cont[2]~reg0.ACLR
+reset => cont[3]~reg0.ACLR
+reset => carry~reg0.ENA
+cont[0] <= cont[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+cont[1] <= cont[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+cont[2] <= cont[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+cont[3] <= cont[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|pratica9|contador_mod6:modd6
+clk => carry~reg0.CLK
+clk => cont[0]~reg0.CLK
+clk => cont[1]~reg0.CLK
+clk => cont[2]~reg0.CLK
+reset => cont[0]~reg0.ACLR
+reset => cont[1]~reg0.ACLR
+reset => cont[2]~reg0.ACLR
+reset => carry~reg0.ENA
+cont[0] <= cont[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+cont[1] <= cont[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+cont[2] <= cont[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|pratica9|contador_mod10:modd10min
+clk => carry~reg0.CLK
+clk => cont[0]~reg0.CLK
+clk => cont[1]~reg0.CLK
+clk => cont[2]~reg0.CLK
+clk => cont[3]~reg0.CLK
+reset => cont[0]~reg0.ACLR
+reset => cont[1]~reg0.ACLR
+reset => cont[2]~reg0.ACLR
+reset => cont[3]~reg0.ACLR
+reset => carry~reg0.ENA
+cont[0] <= cont[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+cont[1] <= cont[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+cont[2] <= cont[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+cont[3] <= cont[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|pratica9|contador_mod6:modd6min
+clk => carry~reg0.CLK
+clk => cont[0]~reg0.CLK
+clk => cont[1]~reg0.CLK
+clk => cont[2]~reg0.CLK
+reset => cont[0]~reg0.ACLR
+reset => cont[1]~reg0.ACLR
+reset => cont[2]~reg0.ACLR
+reset => carry~reg0.ENA
+cont[0] <= cont[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+cont[1] <= cont[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+cont[2] <= cont[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|pratica9|decodificador:dec1
+cod_in[0] => Decoder0.IN3
+cod_in[1] => Decoder0.IN2
+cod_in[2] => Decoder0.IN1
+cod_in[3] => Decoder0.IN0
+cod_out[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+cod_out[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+cod_out[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+cod_out[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+cod_out[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+cod_out[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+cod_out[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|pratica9|decodificador:dec2
+cod_in[0] => Decoder0.IN3
+cod_in[1] => Decoder0.IN2
+cod_in[2] => Decoder0.IN1
+cod_in[3] => Decoder0.IN0
+cod_out[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+cod_out[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+cod_out[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+cod_out[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+cod_out[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+cod_out[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+cod_out[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|pratica9|decodificador:dec3
+cod_in[0] => Decoder0.IN3
+cod_in[1] => Decoder0.IN2
+cod_in[2] => Decoder0.IN1
+cod_in[3] => Decoder0.IN0
+cod_out[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+cod_out[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+cod_out[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+cod_out[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+cod_out[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+cod_out[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+cod_out[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|pratica9|decodificador:dec4
+cod_in[0] => Decoder0.IN3
+cod_in[1] => Decoder0.IN2
+cod_in[2] => Decoder0.IN1
+cod_in[3] => Decoder0.IN0
+cod_out[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+cod_out[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+cod_out[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+cod_out[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+cod_out[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+cod_out[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+cod_out[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,185 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -3.931
+TNS   : -49.711
+
+Type  : Slow 1200mV 85C Model Setup 'contador_mod6:modd6|carry'
+Slack : -0.304
+TNS   : -1.070
+
+Type  : Slow 1200mV 85C Model Setup 'clock_divider:divisor|clk_out'
+Slack : -0.252
+TNS   : -0.933
+
+Type  : Slow 1200mV 85C Model Setup 'contador_mod10:modd10min|carry'
+Slack : -0.222
+TNS   : -0.404
+
+Type  : Slow 1200mV 85C Model Setup 'contador_mod10:modd10|carry'
+Slack : -0.197
+TNS   : -0.571
+
+Type  : Slow 1200mV 85C Model Hold 'clock_divider:divisor|clk_out'
+Slack : 0.402
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'contador_mod10:modd10min|carry'
+Slack : 0.403
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'contador_mod10:modd10|carry'
+Slack : 0.403
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'contador_mod6:modd6|carry'
+Slack : 0.405
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.442
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -37.695
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clock_divider:divisor|clk_out'
+Slack : -1.285
+TNS   : -6.425
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'contador_mod6:modd6|carry'
+Slack : -1.285
+TNS   : -6.425
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'contador_mod10:modd10|carry'
+Slack : -1.285
+TNS   : -5.140
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'contador_mod10:modd10min|carry'
+Slack : -1.285
+TNS   : -3.855
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -3.589
+TNS   : -42.415
+
+Type  : Slow 1200mV 0C Model Setup 'contador_mod6:modd6|carry'
+Slack : -0.176
+TNS   : -0.559
+
+Type  : Slow 1200mV 0C Model Setup 'clock_divider:divisor|clk_out'
+Slack : -0.120
+TNS   : -0.434
+
+Type  : Slow 1200mV 0C Model Setup 'contador_mod10:modd10min|carry'
+Slack : -0.094
+TNS   : -0.159
+
+Type  : Slow 1200mV 0C Model Setup 'contador_mod10:modd10|carry'
+Slack : -0.079
+TNS   : -0.210
+
+Type  : Slow 1200mV 0C Model Hold 'clock_divider:divisor|clk_out'
+Slack : 0.353
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'contador_mod10:modd10min|carry'
+Slack : 0.353
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'contador_mod10:modd10|carry'
+Slack : 0.354
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'contador_mod6:modd6|carry'
+Slack : 0.356
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.401
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -37.695
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clock_divider:divisor|clk_out'
+Slack : -1.285
+TNS   : -6.425
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'contador_mod6:modd6|carry'
+Slack : -1.285
+TNS   : -6.425
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'contador_mod10:modd10|carry'
+Slack : -1.285
+TNS   : -5.140
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'contador_mod10:modd10min|carry'
+Slack : -1.285
+TNS   : -3.855
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -1.531
+TNS   : -11.482
+
+Type  : Fast 1200mV 0C Model Setup 'contador_mod6:modd6|carry'
+Slack : 0.358
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'clock_divider:divisor|clk_out'
+Slack : 0.385
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'contador_mod10:modd10min|carry'
+Slack : 0.392
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'contador_mod10:modd10|carry'
+Slack : 0.413
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clock_divider:divisor|clk_out'
+Slack : 0.181
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'contador_mod10:modd10min|carry'
+Slack : 0.181
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'contador_mod10:modd10|carry'
+Slack : 0.182
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'contador_mod6:modd6|carry'
+Slack : 0.183
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.200
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -31.635
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clock_divider:divisor|clk_out'
+Slack : -1.000
+TNS   : -5.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'contador_mod6:modd6|carry'
+Slack : -1.000
+TNS   : -5.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'contador_mod10:modd10|carry'
+Slack : -1.000
+TNS   : -4.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'contador_mod10:modd10min|carry'
+Slack : -1.000
+TNS   : -3.000
+
+------------------------------------------------------------
